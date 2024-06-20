@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="shortcut icon" href="Neobox.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.min.css">
+    <link rel="stylesheet" href="model.css">
+    <meta property="og:title" content="NeoBox - Home">
+    <meta property="og:description" content="O Neobox é um site que oferece conteúdo gratuito, incluindo filmes, séries, livros, cursos e muito mais.">
+    <meta property="og:image" content="Neobox.png">
+    <meta property="og:url" content="https://neoboxproducts.netlify.app">
+    <meta property="og:type" content="website">
+    <title>Neobox - Home</title>
+    <style>
+        button{
+            background-color: #8DC299 !important;
+            transition: 0.3s;
+        }
+        :root{
+           background-color: #F5F5F5;
+           color: #333333;
+        }
+        #content{
+            margin-top: 90px !important;
+            animation: fade-in 1s ease-in-out forwards;
+        }
+
+        @media (max-width: 768px) {
+            #content{
+                margin-top: 140px !important;
+            }
+            #text{
+                width: 80% !important;
+            }
+        }
+        
+        @media (max-width: 425px) {
+            body{
+                font-size: 0.7rem !important;
+            }
+            h1{
+                font-size: 1.5rem !important;
+                margin-top: 10px !important;
+            }
+            img{
+                width: 30% !important;
+            }
+            button{
+                font-size: 0.6rem !important;
+            }
+            .buttons{
+                width: 80% !important;
+            }
+            #text{
+                width: 80% !important;
+            }
+            #content{
+                margin-top: 100px !important;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="content">
+    <img src="logo.png" alt="" style="width: 200px; margin: auto; display: block;">
+    <h1 class="title">Neobox - Home</h1>
+    <div style="width: 50%; margin: auto;" class="is-text" id="text">
+    <p>O <strong>Neobox</strong> é um site que oferece conteúdo gratuito, incluindo filmes, séries, livros, cursos e muito mais. Com uma interface amigável, os usuários podem encontrar e desfrutar de entretenimento e conhecimento sem precisar pagar. É o destino ideal para quem busca conteúdo gratuito e de qualidade.</p>
+</div>
+<div class="buttons" style="display: flex; justify-content: space-between; width: 400px; margin-top: 15px;">
+    <button class="button" onclick="location.href='filmes'">Filmes</button>
+    <button class="button" onclick="location.href='cursos'">Cursos</button>
+    <button class="button" onclick="location.href='games'">Games</button>
+    <button class="button" onclick="location.href='livros'">Livros</button>
+</div>
+</div>
+
+<script>
+
+</script>
+</body>
+</html>
