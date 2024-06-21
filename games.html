@@ -253,8 +253,19 @@
       content="O Neobox é um site que oferece conteúdo gratuito, incluindo filmes, séries, livros, cursos e muito mais."
     />
     <meta property="og:image" content="Neobox.png" />
-    <meta property="og:url" content="https://neoboxproducts.netlify.app" />
+    <meta property="og:url" content="https://theneobox.netlify.app" />
     <meta property="og:type" content="website" />
+    <meta itemprop="name" content="Neobox - Games" />
+    <meta itemprop="description"
+        content="O Neobox é um site que oferece conteúdo gratuito, incluindo filmes, séries, livros, cursos e muito mais." />
+    <meta itemprop="image" content="Neobox.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:src" content="Neobox.png" />
+    <meta name="twitter:title" content="Neobox - Games" />
+    <meta name="twitter:description"
+        content="O Neobox é um site que oferece conteúdo gratuito, incluindo filmes, séries, livros, cursos e muito mais." />
+    <meta property="og:site_name" content="Neobox - Games" />
 
     <style>
       body {
@@ -463,22 +474,22 @@
         <label class="b-radio radio">
           <input type="radio" name="group_1" value="One" id="One" />
           <span class="check"></span>
-          <span class="control-label">1337x</span>
+          <span class="control-label">Steamrip</span>
         </label>
         <label class="b-radio radio">
           <input type="radio" name="group_1" value="Two" id="Two" />
           <span class="check"></span>
-          <span class="control-label">RepackGames</span>
+          <span class="control-label">DODI</span>
         </label>
         <label class="b-radio radio">
           <input type="radio" name="group_1" value="Three" id="Three" />
           <span class="check"></span>
-          <span class="control-label">G4u</span>
+          <span class="control-label">FitGirl</span>
         </label>
         <label class="b-radio radio">
           <input type="radio" name="group_1" value="Four" id="Four" />
           <span class="check"></span>
-          <span class="control-label">SteamRip</span>
+          <span class="control-label">Repacklab</span>
         </label>
       </div>
       <button
@@ -555,12 +566,12 @@
       }
       function site(n) {
         radio1.checked == true
-          ? window.open(`https://1337x.to/search/${n}/1/`, "_blank")
+          ? window.open(`https://steamrip.com/?s=${n}`, "_blank")
           : radio2.checked == true
-          ? window.open(`https://repack-games.com/?s=${n}`, "_blank")
+          ? window.open(`https://dodi-repacks.site/?s=${n}`, "_blank")
           : radio3.checked == true
-          ? window.open(`https://g4u.to/en/search/?str=${n}`, "_blank")
-          : window.open(`https://steamrip.com/?s=${n}`, "_blank");
+          ? window.open(`https://fitgirl-repacks.site/?s=${n}`, "_blank")
+          : window.open(`https://repacklab.com/?s=${n}`, "_blank");
       }
       async function msgevent(t) {
         if (t == 0) {
@@ -625,13 +636,6 @@
           }
         });
       });
-
-      /*
-        1- https://oneflix.one/?s=variável
-        2- https://megaflix.click/procurar/variável
-      3- https://megaflix.co/?s=variável
-        4- https://mrfilmes.online/?s=variável
-        */
     </script>
 
     
